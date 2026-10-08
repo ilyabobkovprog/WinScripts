@@ -1,0 +1,13 @@
+set-executionpolicy -executionpolicy bypass -scope process -force
+
+Выполните в PowerShell: .\services_rollback.ps1
+
+Если после этого появится ошибка о том, что 
+«выполнение скриптов отключено в этой системе» 
+(Execution Policy), выполните команду, которая 
+временно разрешит запуск для текущего окна:
+
+выполнить отдельной строкой код: 
+
+
+После этого запускать .\name.ps1

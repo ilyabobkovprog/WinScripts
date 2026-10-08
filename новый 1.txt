@@ -1,0 +1,11 @@
+Remove-AppxProvisionedPackage : Не удается привязать параметр "ErrorAction". Не удается преобразовать значение "Silentl
+yContinue/" в тип "System.Management.Automation.ActionPreference". Ошибка: "Не удается сопоставить пустое имя идентифик
+атора SilentlyContinue/ с допустимым именем перечислителя.  Укажите одно из следующих имен перечислителя и попробуйте е
+ще раз:
+SilentlyContinue, Stop, Continue, Inquire, Ignore, Suspend"
+строка:6 знак:275
++ ...  Remove-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue/
++                                                         ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-AppxProvisionedPackage], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.Dism.Commands.RemoveAppxProvisionedPackageComma
+   nd
